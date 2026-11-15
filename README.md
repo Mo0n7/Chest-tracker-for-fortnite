@@ -1,16 +1,19 @@
-# 📦 Fortnite Chest Tracker (Safe Overlay)
+# 📦 Fortnite Chest Tracker (Overlay)
 
-A lightweight, 100% anti-cheat safe desktop overlay built with pure Python to track your chest openings during intense grind sessions.
+A lightweight desktop overlay built with pure Python to track your chest openings during intense grind sessions.
 
 ### 🔥 Why does this exist?
-Right now, an in-game event is live and everyone is chasing that ultra-rare **Treasure Hours token** (with a brutal **1 in 137,000** base drop chance). When you're opening 500+ chests a day and thousands overall, losing track of your progress is painful — and running shady screen-readers or memory-reading tools is a fast track to getting banned.
+Right now, the **Pirate Event** is live and players are grinding for the ultra-rare **Pirate Token** (with a brutal **1 in 137,000** base drop chance). When you're opening 500+ chests a day and thousands overall, losing track of your progress is painful.
 
-This tool solves that: zero game interaction, pure standard library Python, and a minimal click-through overlay that stays out of your way.
+This tool solves that: a minimal, non-intrusive click-through overlay that stays out of your way while you play.
 
 ---
 
-### 🛡️ 100% Anti-Cheat Safe
-* **No keyboard/mouse hooks** (unlike `pynput` or `keyboard` libraries that look like keyloggers). Uses native Windows `RegisterHotKey` API.
+### ⚠️ Disclaimer (Use at Your Own Risk)
+This is an independent third-party overlay utility. While it is designed to be as non-invasive as possible, **no third-party software can ever be guaranteed 100% safe** against anti-cheat updates or heuristic flags. **Use this tool at your own risk** — the author takes no responsibility for any account restrictions or bans.
+
+**How it works under the hood:**
+* **No keyboard/mouse hooks** (unlike `pynput` or `keyboard` libraries). Uses native Windows `RegisterHotKey` API.
 * **No screen capturing or OCR** — doesn't read pixels or capture your game window.
 * **Zero memory/process access** — never touches Fortnite's files or RAM.
 
@@ -21,7 +24,7 @@ This tool solves that: zero game interaction, pure standard library Python, and 
 * **Click-Through Mode (Ghost Mode):** Lock the overlay so your mouse clicks pass straight through into the game.
 * **Crash-Safe Auto-Save:** Uses atomic file replacement (`chest_stats.txt`) so your progress won't corrupt even if your PC loses power.
 * **Progress & Percentage:** Tracks your current count against the 137,000 target with live percentage calculation.
-* **Customizable:** Change hotkeys, colors, transparency, or enable Windows autostart right at the top of the script.
+* **Customizable:** Change hotkeys, colors, transparency, or autostart settings right at the top of the script.
 
 ---
 

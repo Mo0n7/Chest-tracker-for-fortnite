@@ -1,8 +1,8 @@
-# 📦 Fortnite Chest Tracker (Overlay)
+#  Fortnite Chest Tracker (Overlay)
 
 A lightweight desktop overlay built with pure Python to track your chest openings during intense grind sessions.
 
-### 🔥 Why does this exist?
+###  Why does this exist?
 Right now, the **Pirate Event** is live and players are grinding for the ultra-rare **Pirate Token** (with a brutal **1 in 137,000** base drop chance). When you're opening 500+ chests a day and thousands overall, losing track of your progress is painful.
 
 This tool solves that: a minimal, non-intrusive click-through overlay that stays out of your way while you play.
@@ -19,7 +19,7 @@ This is an independent third-party overlay utility. While it is designed to be a
 
 ---
 
-### ✨ Features
+###  Features
 * **Zero Dependencies:** Runs out of the box using only Python's standard library (`tkinter`, `ctypes`, `winreg`).
 * **Click-Through Mode (Ghost Mode):** Lock the overlay so your mouse clicks pass straight through into the game.
 * **Crash-Safe Auto-Save:** Uses atomic file replacement (`chest_stats.txt`) so your progress won't corrupt even if your PC loses power.
@@ -28,7 +28,7 @@ This is an independent third-party overlay utility. While it is designed to be a
 
 ---
 
-### 🎮 Controls & Hotkeys
+###  Controls & Hotkeys
 
 | Key / Action | Function |
 | :--- | :--- |
@@ -41,7 +41,7 @@ This is an independent third-party overlay utility. While it is designed to be a
 
 ---
 
-### 🚀 Quick Start
+###  Quick Start
 
 1. Make sure you have **Python 3** installed.
 2. Set Fortnite display mode to **Windowed Fullscreen** (required for Windows overlays to render on top).

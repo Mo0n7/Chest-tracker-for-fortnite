@@ -48,3 +48,6 @@ This is an independent third-party overlay utility. While it is designed to be a
 3. Run the tracker:
    ```bash
    python chest_tracker.py
+
+---
+**Developers:** Voxens & Claude
